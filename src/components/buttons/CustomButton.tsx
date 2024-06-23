@@ -1,27 +1,26 @@
-'use client';
-import React, { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
+'use client'
+import React, { useEffect, useState } from 'react'
+import { motion } from 'framer-motion'
 
 interface ICustomButton {
-  text: string;
-  top: string;
-  left: string;
+  text: string
+  customStyle: any
 }
 
-const CustomButton = ({ top, left, text }: ICustomButton) => {
-  const [randomX, setRandomX] = useState(0);
+const CustomButton = ({ customStyle, text }: ICustomButton) => {
+  const [randomX, setRandomX] = useState(0)
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setRandomX(Math.random() * 30 - 15); // Генерируем случайное значение от -100 до 100
-    }, 2000);
+      setRandomX(Math.random() * 30 - 15) // Генерируем случайное значение от -100 до 100
+    }, 2000)
 
-    return () => clearInterval(interval);
-  }, []);
+    return () => clearInterval(interval)
+  }, [])
 
   return (
     <motion.div
-      style={{ top, left }}
+      style={customStyle}
       initial={{ x: 0 }}
       animate={{ x: randomX }}
       transition={{ duration: 2, repeat: Infinity }}
@@ -29,7 +28,7 @@ const CustomButton = ({ top, left, text }: ICustomButton) => {
     >
       {text}
     </motion.div>
-  );
-};
+  )
+}
 
-export default CustomButton;
+export default CustomButton
