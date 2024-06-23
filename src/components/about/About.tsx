@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <div className="container">
+    <section>
       <div className="mt-[100px] py-10 bg-[#3D2D2D] text-white text-[18px] grid grid-cols-10 relative">
         <div className="col-span-6 text-right grid grid-cols-1">
           <div className="ml-auto relative max-h-[102px] max-w-[500px] w-[560px] h-[115px]">
@@ -44,7 +44,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

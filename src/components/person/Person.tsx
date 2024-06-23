@@ -3,7 +3,8 @@ import Image from 'next/image'
 
 const Person = () => {
   return (
-    <div className="container">
+    <section>
+      {/* <div className="container"> */}
       <div className="relative w-full text-white">
         <div className="relative max-h-[900px] w-full lg:h-[900px] md:h-[700px] h-[500px]">
           <Image
@@ -72,7 +73,8 @@ const Person = () => {
 
         <CustomButtonsList />
       </div>
-    </div>
+      {/* </div> */}
+    </section>
   )
 }
 
