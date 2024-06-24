@@ -1,12 +1,12 @@
 'use client'
 
-import Image from 'next/image'
 import { Navigation } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import 'swiper/css'
 import 'swiper/css/navigation'
 import { articlesData } from '@/data/articleData'
+import ArticleCard from '../cards/ArticleCard'
 
 const Article = () => {
   return (
@@ -52,15 +52,12 @@ const Article = () => {
       >
         {articlesData.map((item, index) => (
           <SwiperSlide key={index} className='flex justify-center items-center'>
-            <div className='relative max-h-[200px] h-[200px]'>
-              <Image
-                src={item.imageSrc}
-                alt={`youtube-${index + 1}`}
-                fill
-                className='object-contain'
-                quality={100}
-              />
-            </div>
+            <ArticleCard
+              id={item.id}
+              imageSrc={item.imageSrc}
+              title={item.title}
+              describe={item.describe}
+            />
           </SwiperSlide>
         ))}
       </Swiper>

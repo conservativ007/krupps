@@ -17,6 +17,10 @@
   @apply grid grid-cols-3 gap-5;
 }
 
-.small-container {
-  
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* количество строк */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Добавление троеточия в конце */
 }

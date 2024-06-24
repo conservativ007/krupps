@@ -8,12 +8,12 @@ import ButtonsGroup from '../buttons/ButtonsGroup'
 
 const Services = () => {
   return (
-    <Accordion className="grid grid-cols-2 gap-5" type="single" collapsible>
-      <AccordionItem value="item-1">
-        <AccordionTrigger className="font-kur text-[25px] text-center">
+    <Accordion className='grid grid-cols-2 gap-5' type='single' collapsible>
+      <AccordionItem value='item-1'>
+        <AccordionTrigger className='font-kur text-[25px] text-center'>
           Нет договора ?
         </AccordionTrigger>
-        <AccordionContent className="grid1 text-[16px]">
+        <AccordionContent className='grid1 text-[16px]'>
           <p>
             Нет хорошего договора подряда? Каждый раз подписываете договор
             контрагента или используете шаблон, который вам не подходит?
@@ -33,14 +33,15 @@ const Services = () => {
             по-прежнему работающих с болванками из интернета или с «кривыми
             договорами», на которые сложно смотреть без слез.
           </p>
-          <ButtonsGroup />
+
+          <ButtonsGroup text='Пишите мне в мессенджер, давайте знакомиться!' />
         </AccordionContent>
       </AccordionItem>
-      <AccordionItem value="item-2">
-        <AccordionTrigger className="font-kur text-[25px] text-center">
+      <AccordionItem value='item-2'>
+        <AccordionTrigger className='font-kur text-[25px] text-center'>
           Мешает работать заказчик ?
         </AccordionTrigger>
-        <AccordionContent className="grid1 text-[16px]">
+        <AccordionContent className='grid1 text-[16px]'>
           <p>
             Очень частая ситуация, когда Заказчик не исполняет свои
             обязательства, на, например тянет с авансом или с передачей сырья, у
@@ -58,14 +59,14 @@ const Services = () => {
             Поможем правильно приостановить работы и подготовим требование к
             заказчику. Снизим риски получения штрафов и неустоек.
           </p>
-          <ButtonsGroup />
+          <ButtonsGroup text='Пишите мне в мессенджер, давайте знакомиться!' />
         </AccordionContent>
       </AccordionItem>
-      <AccordionItem value="item-3">
-        <AccordionTrigger className="font-kur text-[25px] text-center">
+      <AccordionItem value='item-3'>
+        <AccordionTrigger className='font-kur text-[25px] text-center'>
           Спор о качестве ?
         </AccordionTrigger>
-        <AccordionContent className="grid1 text-[16px]">
+        <AccordionContent className='grid1 text-[16px]'>
           <p>У заказчика претензии к качеству работ?</p>
           <p>
             Заказчик настаивает, что работы выполнены некачественно или не в
@@ -81,14 +82,14 @@ const Services = () => {
             суде.
           </p>
 
-          <ButtonsGroup />
+          <ButtonsGroup text='Пишите мне в мессенджер, давайте знакомиться!' />
         </AccordionContent>
       </AccordionItem>
-      <AccordionItem value="item-4">
-        <AccordionTrigger className="text-[25px] text-center">
+      <AccordionItem value='item-4'>
+        <AccordionTrigger className='text-[25px] text-center'>
           Не платят за допработы ?
         </AccordionTrigger>
-        <AccordionContent className="grid1 text-[16px]">
+        <AccordionContent className='grid1 text-[16px]'>
           <p>
             Выполнили дополнительные работы, а заказчик отказывается от их
             оплаты? Обычное дело.
@@ -98,14 +99,14 @@ const Services = () => {
             Давайте мы проанализируем документы, составим требование к
             заказчику. Если потребуется, проведем переговоры или подадим в суд.
           </p>
-          <ButtonsGroup />
+          <ButtonsGroup text='Пишите мне в мессенджер, давайте знакомиться!' />
         </AccordionContent>
       </AccordionItem>
-      <AccordionItem value="item-5">
-        <AccordionTrigger className="text-[25px] text-center">
+      <AccordionItem value='item-5'>
+        <AccordionTrigger className='text-[25px] text-center'>
           Не принимают работы ?
         </AccordionTrigger>
-        <AccordionContent className="grid1 text-[16px]">
+        <AccordionContent className='grid1 text-[16px]'>
           <p>Заказчик отказался от приемки выполненных работ?</p>
           <p>Никуда он не денется!</p>
           <p>
@@ -113,28 +114,28 @@ const Services = () => {
             заказчику так, чтобы мирно разрешить проблему, а если не получится,
             увеличить шансы на победу в суде.
           </p>
-          <ButtonsGroup />
+          <ButtonsGroup text='Пишите мне в мессенджер, давайте знакомиться!' />
         </AccordionContent>
       </AccordionItem>
-      <AccordionItem value="item-6">
-        <AccordionTrigger className="text-[25px] text-center">
+      <AccordionItem value='item-6'>
+        <AccordionTrigger className='text-[25px] text-center'>
           Уклоняются от приемки ?
         </AccordionTrigger>
-        <AccordionContent className="grid1 text-[16px]">
+        <AccordionContent className='grid1 text-[16px]'>
           <p>Заказчик уклоняется от приемки работ или «кормит завтраками»?</p>
           <p>Будем дисциплинировать его. Не надо просто ждать погоды у моря!</p>
           <p>
             Составим требование и оформим документы так, чтобы работы считались
             принятыми. Поможем добиться оплаты работ.
           </p>
-          <ButtonsGroup />
+          <ButtonsGroup text='Пишите мне в мессенджер, давайте знакомиться!' />
         </AccordionContent>
       </AccordionItem>
-      <AccordionItem value="item-7">
-        <AccordionTrigger className="text-[25px] text-center">
+      <AccordionItem value='item-7'>
+        <AccordionTrigger className='text-[25px] text-center'>
           Ушел с объекта ?
         </AccordionTrigger>
-        <AccordionContent className="grid1 text-[16px]">
+        <AccordionContent className='grid1 text-[16px]'>
           <p>Подрядчик бросил объект?</p>
           <p>
             Не спешите заводить нового. Это может выйти боком. Давайте сначала
@@ -144,14 +145,14 @@ const Services = () => {
             Поможем зафиксировать уход подрядчика с объекта, составим
             необходимые акты и выдвинем обоснованные требования.
           </p>
-          <ButtonsGroup />
+          <ButtonsGroup text='Пишите мне в мессенджер, давайте знакомиться!' />
         </AccordionContent>
       </AccordionItem>
-      <AccordionItem value="item-8">
-        <AccordionTrigger className="text-[25px] text-center">
+      <AccordionItem value='item-8'>
+        <AccordionTrigger className='text-[25px] text-center'>
           Разорвал контракт ?
         </AccordionTrigger>
-        <AccordionContent className="grid1 text-[16px]">
+        <AccordionContent className='grid1 text-[16px]'>
           <p>Заказчик отказался от договора?</p>
           <p>
             Очень неприятная история! Но насколько правильно и по какому
@@ -163,14 +164,14 @@ const Services = () => {
             Поможем зафиксировать выполненные работы и предъявить требование об
             их оплате. Оспорим необоснованный отказ и заявим об убытках.
           </p>
-          <ButtonsGroup />
+          <ButtonsGroup text='Пишите мне в мессенджер, давайте знакомиться!' />
         </AccordionContent>
       </AccordionItem>
-      <AccordionItem value="item-9">
-        <AccordionTrigger className="text-[25px] text-center">
+      <AccordionItem value='item-9'>
+        <AccordionTrigger className='text-[25px] text-center'>
           Работа сделана плохо ?
         </AccordionTrigger>
-        <AccordionContent className="grid1 text-[16px]">
+        <AccordionContent className='grid1 text-[16px]'>
           <p>
             Подрядчик плохо выполнил работы или вы видите, что он их плохо
             выполняет, но не понимаете, что же делать?
@@ -184,14 +185,14 @@ const Services = () => {
             Поможем провести экспертизу работ и подготовиться к суду (если
             потребуется).
           </p>
-          <ButtonsGroup />
+          <ButtonsGroup text='Пишите мне в мессенджер, давайте знакомиться!' />
         </AccordionContent>
       </AccordionItem>
-      <AccordionItem value="item-10">
-        <AccordionTrigger className="text-[25px] text-center">
+      <AccordionItem value='item-10'>
+        <AccordionTrigger className='text-[25px] text-center'>
           Требование по гарантии ?
         </AccordionTrigger>
-        <AccordionContent className="grid1 text-[16px]">
+        <AccordionContent className='grid1 text-[16px]'>
           <p>Заказчик требует гарантийный ремонт?</p>
           <p>
             А прав ли он? Очень часто недобросовестные заказчика терроризируют
@@ -202,14 +203,14 @@ const Services = () => {
             Проанализируем законность требования, поможем договориться с
             заказчиком или отклонить необоснованное требование.
           </p>
-          <ButtonsGroup />
+          <ButtonsGroup text='Пишите мне в мессенджер, давайте знакомиться!' />
         </AccordionContent>
       </AccordionItem>
-      <AccordionItem value="item-11">
-        <AccordionTrigger className="text-[25px] text-center">
+      <AccordionItem value='item-11'>
+        <AccordionTrigger className='text-[25px] text-center'>
           Получил иск ?
         </AccordionTrigger>
-        <AccordionContent className="grid1 text-[16px]">
+        <AccordionContent className='grid1 text-[16px]'>
           <p>На вас подали в суд?</p>
           <p>Очень неприятно, но это отнюдь не катастрофа!</p>
           <p>У нас богатейшая собственная практика по подрядным спорам.</p>
@@ -222,14 +223,14 @@ const Services = () => {
             Подготовим все необходимые документы и доведем дело до конца. Вы не
             останетесь без поддержки до полного разрешения дела.
           </p>
-          <ButtonsGroup />
+          <ButtonsGroup text='Пишите мне в мессенджер, давайте знакомиться!' />
         </AccordionContent>
       </AccordionItem>
-      <AccordionItem value="item-12">
-        <AccordionTrigger className="text-[25px] text-center">
+      <AccordionItem value='item-12'>
+        <AccordionTrigger className='text-[25px] text-center'>
           Нужно потянуть время ?
         </AccordionTrigger>
-        <AccordionContent className="grid1 text-[16px]">
+        <AccordionContent className='grid1 text-[16px]'>
           <p>
             Контрагенты задерживают оплату и нет возможности рассчитаться с
             подрядчиком сейчас?
@@ -242,14 +243,14 @@ const Services = () => {
             А вот сколько мы сможем его дать и какие риски будут у тебя при этом
             мы сможем рассказать только после того, как разберемся с ситуацией.
           </p>
-          <ButtonsGroup />
+          <ButtonsGroup text='Пишите мне в мессенджер, давайте знакомиться!' />
         </AccordionContent>
       </AccordionItem>
-      <AccordionItem value="item-13">
-        <AccordionTrigger className="text-[25px] text-center">
+      <AccordionItem value='item-13'>
+        <AccordionTrigger className='text-[25px] text-center'>
           Огромная неустойка ?
         </AccordionTrigger>
-        <AccordionContent className="grid1 text-[16px]">
+        <AccordionContent className='grid1 text-[16px]'>
           <p>
             Заказчик выкатил требование с неустойкой, которая уводит вас в
             минус?
@@ -265,14 +266,14 @@ const Services = () => {
             вариантов решения и вместе сэкономим вам деньги.
           </p>
 
-          <ButtonsGroup />
+          <ButtonsGroup text='Пишите мне в мессенджер, давайте знакомиться!' />
         </AccordionContent>
       </AccordionItem>
-      <AccordionItem value="item-14">
-        <AccordionTrigger className="text-[25px] text-center">
+      <AccordionItem value='item-14'>
+        <AccordionTrigger className='text-[25px] text-center'>
           Не можешь найти юриста ?
         </AccordionTrigger>
-        <AccordionContent className="grid1 text-[16px]">
+        <AccordionContent className='grid1 text-[16px]'>
           <p>
             Нужен юрист, специализирующийся на подряде, а в сети в основном
             юристы, которые разбираются во всем сразу?
@@ -291,7 +292,7 @@ const Services = () => {
             руках. Дальше искать смысла нет.
           </p>
 
-          <ButtonsGroup />
+          <ButtonsGroup text='Пишите мне в мессенджер, давайте знакомиться!' />
         </AccordionContent>
       </AccordionItem>
     </Accordion>

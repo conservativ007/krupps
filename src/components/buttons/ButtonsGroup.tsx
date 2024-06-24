@@ -2,14 +2,16 @@ import React from 'react'
 import ButtonTelegram from './ButtonTelegram'
 import ButtonWhatsUp from './ButtonWhatsUp'
 
-const ButtonsGroup = () => {
+interface IButtonsGroup {
+  text?: string
+}
+
+const ButtonsGroup = ({ text }: IButtonsGroup) => {
   return (
-    <div className="grid gap-3 grid-cols-8">
+    <div className='grid gap-3 grid-cols-8'>
       <ButtonTelegram />
       <ButtonWhatsUp />
-      <p className="col-span-6 content-center">
-        Пишите мне в мессенджер, давайте знакомиться!
-      </p>
+      <p className='col-span-6 content-center'>{text && text}</p>
     </div>
   )
 }
