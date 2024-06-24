@@ -4,7 +4,7 @@ import ButtonWhatsUp from '@/components/buttons/ButtonWhatsUp'
 const page = () => {
   return (
     <div className='container flex items-center justify-center min-h-screen'>
-      <div className='grid1 py-10'>
+      <div className='grid1 py-10 not-copy'>
         <p className='font-bold'>
           Претензия по договору подряда. Как составить претензию по договору
           подряда самостоятельно. Как правильно направить претензию и какой срок

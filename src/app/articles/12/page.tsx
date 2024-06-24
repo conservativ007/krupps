@@ -5,7 +5,7 @@ import Link from 'next/link'
 const page = () => {
   return (
     <div className='container flex items-center justify-center min-h-screen'>
-      <div className='grid1 py-10'>
+      <div className='grid1 py-10 not-copy'>
         <p className='font-bold'>Подрядчик бросил объект</p>
         <p>
           Здравствуй, дорогой читатель! Я рад приветствовать тебя на нашем

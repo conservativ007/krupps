@@ -6,7 +6,7 @@ import React from 'react'
 const page = () => {
   return (
     <div className='container flex items-center justify-center min-h-screen'>
-      <div className='grid1 py-10'>
+      <div className='grid1 py-10 not-copy'>
         <p className='font-bold'>
           Договор подряда. Понятие договора подряда, его предмет и существенные
           условия.
