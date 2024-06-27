@@ -10,13 +10,13 @@ import Work from '@/components/work/Work'
 const PersonPage = () => {
   return (
     <div className='grid grid-cols-1 gap-10'>
-      {/* <Person />
+      <Person />
       <Work />
-      <About />*/}
-      {/* <Price />
-      <Youtube />*/}
-      {/* <Team />
-      <Companies /> */}
+      <About />
+      <Price />
+      <Youtube />
+      <Team />
+      <Companies />
       <Article />
     </div>
   )
