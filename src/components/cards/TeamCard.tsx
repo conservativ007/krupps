@@ -17,7 +17,7 @@ export default function TeamCard({
   return (
     <div className='flex flex-col'>
       <div
-        className={`rounded-[20px] relative overflow-hidden mb-5 ${
+        className={`rounded-[20px] relative overflow-hidden ${
           variant === 'compact' && 'h-[480px]'
         }`}
       >

@@ -11,11 +11,11 @@ export interface ITeamCard {
 const ArticleCard = ({ id, imageSrc, title, describe }: ITeamCard) => {
   return (
     <div className='grid1'>
-      <div className='relative max-h-[200px] h-[200px]'>
+      <div className='relative max-h-[200px] lg:h-[200px] h-[130px]'>
         <Image
           src={imageSrc}
           alt='article'
-          fill
+          fill={true}
           className='object-contain'
           quality={100}
         />

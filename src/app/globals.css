@@ -31,3 +31,52 @@
   -ms-user-select: none;     /* Internet Explorer/Edge */
   user-select: none;         /* Non-prefixed version, currently supported by Chrome, Opera and Edge */
 }
+
+@keyframes randomXAnimation1 {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(5px, -2.5px); }
+  50% { transform: translate(-5px, 5px); }
+  75% { transform: translate(2.5px, -5px); }
+  100% { transform: translate(0, 0); }
+}
+
+@keyframes randomXAnimation2 {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-5px, 2.5px); }
+  50% { transform: translate(5px, -5px); }
+  75% { transform: translate(-2.5px, 5px); }
+  100% { transform: translate(0, 0); }
+}
+
+@keyframes randomXAnimation3 {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(7.5px, -5px); }
+  50% { transform: translate(-7.5px, 7.5px); }
+  75% { transform: translate(5px, -7.5px); }
+  100% { transform: translate(0, 0); }
+}
+
+@keyframes randomXAnimation4 {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-7.5px, 5px); }
+  50% { transform: translate(7.5px, -7.5px); }
+  75% { transform: translate(-5px, 7.5px); }
+  100% { transform: translate(0, 0); }
+}
+
+.custom-button1 {
+  animation: randomXAnimation1 16s infinite;
+}
+
+.custom-button2 {
+  animation: randomXAnimation2 16s infinite;
+}
+
+.custom-button3 {
+  animation: randomXAnimation3 16s infinite;
+}
+
+.custom-button4 {
+  animation: randomXAnimation4 16s infinite;
+}
+

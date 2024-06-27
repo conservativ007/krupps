@@ -10,8 +10,8 @@ import ArticleCard from '../cards/ArticleCard'
 
 const Article = () => {
   return (
-    <section className=''>
-      <p className='mb-10 font-kur text-[40px] text-[#867373] text-center uppercase'>
+    <section className='grid1'>
+      <p className='font-kur text-[40px] text-[#867373] text-center uppercase'>
         ПУБЛИКАЦИИ
       </p>
       <Swiper

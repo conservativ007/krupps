@@ -6,10 +6,12 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 
 import 'swiper/css'
 import 'swiper/css/navigation'
+import { Button } from '@/components/ui/button'
 
 const Youtube = () => {
   return (
-    <section className='mb-20'>
+    <section className='grid1 justify-items-center font-kur text-center uppercase text-[#867373] text-[40px]'>
+      <p>Мой Youtube</p>
       <Swiper
         modules={[Navigation]}
         // navigation={{
@@ -72,6 +74,13 @@ const Youtube = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+
+      <Button
+        className='font-bold font-inter text-white text-[18px] bg-gradient-to-b from-[#FF4F5C] to-[#FA2030] px-6 py-4'
+        variant='destructive'
+      >
+        Подписаться на YouTube канал
+      </Button>
     </section>
   )
 }

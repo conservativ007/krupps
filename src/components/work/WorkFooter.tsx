@@ -2,14 +2,18 @@ import React from 'react'
 
 const WorkFooter = () => {
   return (
-    <div className="grid2 text-center">
+    <div className='grid sm:grid-cols-2 grid-cols-1 text-center'>
       <div>
-        <p className="text-[35px]">Претензионная работа</p>
-        <p className="text-[45px]">от 10.000 ₽</p>
+        <p className='lg:text-[35px] md:text-[25px] text-[22px]'>
+          Претензионная работа
+        </p>
+        <p className='md:text-[45px] text-[40px]'>от 10.000 ₽</p>
       </div>
       <div>
-        <p className="text-[35px]">Судебное сопровождение</p>
-        <p className="text-[45px]">от 50.000 ₽</p>
+        <p className='lg:text-[35px] md:text-[25px] text-[22px]'>
+          Судебное сопровождение
+        </p>
+        <p className='md:text-[45px] text-[40px]'>от 50.000 ₽</p>
       </div>
     </div>
   )

@@ -10,8 +10,8 @@ import TeamCard from '../cards/TeamCard'
 
 const Team = () => {
   return (
-    <section className=''>
-      <p className='mb-10 font-kur text-[40px] text-[#867373] text-center uppercase'>
+    <section className='grid1'>
+      <p className='font-kur text-[40px] text-[#867373] text-center uppercase'>
         Моя КОМАНДА
       </p>
       <Swiper
@@ -64,14 +64,14 @@ const Team = () => {
         </SwiperSlide>
         <SwiperSlide className='flex justify-center items-center'>
           <TeamCard
-            fullname='Александра Дробышева'
+            fullname='Красников Сергей'
             describe='Руководитель практики. Партнёр'
             imageSrc='/team-2.png'
           />
         </SwiperSlide>
         <SwiperSlide className='flex justify-center items-center'>
           <TeamCard
-            fullname='Александра Дробышева'
+            fullname='Цымбалов Борис'
             describe='Руководитель Центрально-Черноземного офиса. Партнёр'
             imageSrc='/team-3.png'
           />
@@ -85,14 +85,14 @@ const Team = () => {
         </SwiperSlide>
         <SwiperSlide className='flex justify-center items-center'>
           <TeamCard
-            fullname='Александра Дробышева'
+            fullname='Красников Сергей'
             describe='Руководитель практики. Партнёр'
             imageSrc='/team-2.png'
           />
         </SwiperSlide>
         <SwiperSlide className='flex justify-center items-center'>
           <TeamCard
-            fullname='Александра Дробышева'
+            fullname='Цымбалов Борис'
             describe='Руководитель Центрально-Черноземного офиса. Партнёр'
             imageSrc='/team-3.png'
           />

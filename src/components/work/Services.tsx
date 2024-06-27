@@ -8,9 +8,13 @@ import ButtonsGroup from '../buttons/ButtonsGroup'
 
 const Services = () => {
   return (
-    <Accordion className='grid grid-cols-2 gap-5' type='single' collapsible>
+    <Accordion
+      className='grid sm:grid-cols-2 grid-cols-1 sm:gap-5 gap-1'
+      type='single'
+      collapsible
+    >
       <AccordionItem value='item-1'>
-        <AccordionTrigger className='font-kur text-[25px] text-center'>
+        <AccordionTrigger className='font-kur md:text-[25px] text-[20px] text-center'>
           Нет договора ?
         </AccordionTrigger>
         <AccordionContent className='grid1 text-[16px]'>
@@ -38,7 +42,7 @@ const Services = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value='item-2'>
-        <AccordionTrigger className='font-kur text-[25px] text-center'>
+        <AccordionTrigger className='font-kur md:text-[25px] text-[20px] text-center'>
           Мешает работать заказчик ?
         </AccordionTrigger>
         <AccordionContent className='grid1 text-[16px]'>
@@ -63,7 +67,7 @@ const Services = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value='item-3'>
-        <AccordionTrigger className='font-kur text-[25px] text-center'>
+        <AccordionTrigger className='font-kur md:text-[25px] text-[20px] text-center'>
           Спор о качестве ?
         </AccordionTrigger>
         <AccordionContent className='grid1 text-[16px]'>
@@ -86,7 +90,7 @@ const Services = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value='item-4'>
-        <AccordionTrigger className='text-[25px] text-center'>
+        <AccordionTrigger className='md:text-[25px] text-[20px] text-center'>
           Не платят за допработы ?
         </AccordionTrigger>
         <AccordionContent className='grid1 text-[16px]'>
@@ -103,7 +107,7 @@ const Services = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value='item-5'>
-        <AccordionTrigger className='text-[25px] text-center'>
+        <AccordionTrigger className='md:text-[25px] text-[20px] text-center'>
           Не принимают работы ?
         </AccordionTrigger>
         <AccordionContent className='grid1 text-[16px]'>
@@ -118,7 +122,7 @@ const Services = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value='item-6'>
-        <AccordionTrigger className='text-[25px] text-center'>
+        <AccordionTrigger className='md:text-[25px] text-[20px] text-center'>
           Уклоняются от приемки ?
         </AccordionTrigger>
         <AccordionContent className='grid1 text-[16px]'>
@@ -132,7 +136,7 @@ const Services = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value='item-7'>
-        <AccordionTrigger className='text-[25px] text-center'>
+        <AccordionTrigger className='md:text-[25px] text-[20px] text-center'>
           Ушел с объекта ?
         </AccordionTrigger>
         <AccordionContent className='grid1 text-[16px]'>
@@ -149,7 +153,7 @@ const Services = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value='item-8'>
-        <AccordionTrigger className='text-[25px] text-center'>
+        <AccordionTrigger className='md:text-[25px] text-[20px] text-center'>
           Разорвал контракт ?
         </AccordionTrigger>
         <AccordionContent className='grid1 text-[16px]'>
@@ -168,7 +172,7 @@ const Services = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value='item-9'>
-        <AccordionTrigger className='text-[25px] text-center'>
+        <AccordionTrigger className='md:text-[25px] text-[20px] text-center'>
           Работа сделана плохо ?
         </AccordionTrigger>
         <AccordionContent className='grid1 text-[16px]'>
@@ -189,7 +193,7 @@ const Services = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value='item-10'>
-        <AccordionTrigger className='text-[25px] text-center'>
+        <AccordionTrigger className='md:text-[25px] text-[20px] text-center'>
           Требование по гарантии ?
         </AccordionTrigger>
         <AccordionContent className='grid1 text-[16px]'>
@@ -207,7 +211,7 @@ const Services = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value='item-11'>
-        <AccordionTrigger className='text-[25px] text-center'>
+        <AccordionTrigger className='md:text-[25px] text-[20px] text-center'>
           Получил иск ?
         </AccordionTrigger>
         <AccordionContent className='grid1 text-[16px]'>
@@ -227,7 +231,7 @@ const Services = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value='item-12'>
-        <AccordionTrigger className='text-[25px] text-center'>
+        <AccordionTrigger className='md:text-[25px] text-[20px] text-center'>
           Нужно потянуть время ?
         </AccordionTrigger>
         <AccordionContent className='grid1 text-[16px]'>
@@ -247,7 +251,7 @@ const Services = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value='item-13'>
-        <AccordionTrigger className='text-[25px] text-center'>
+        <AccordionTrigger className='md:text-[25px] text-[20px] text-center'>
           Огромная неустойка ?
         </AccordionTrigger>
         <AccordionContent className='grid1 text-[16px]'>
@@ -270,7 +274,7 @@ const Services = () => {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value='item-14'>
-        <AccordionTrigger className='text-[25px] text-center'>
+        <AccordionTrigger className='md:text-[25px] text-[20px] text-center'>
           Не можешь найти юриста ?
         </AccordionTrigger>
         <AccordionContent className='grid1 text-[16px]'>
