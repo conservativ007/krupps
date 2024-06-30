@@ -8,10 +8,10 @@ interface IButtonsGroup {
 
 const ButtonsGroup = ({ text }: IButtonsGroup) => {
   return (
-    <div className='grid gap-3 grid-cols-8'>
+    <div className='flex space-x-5'>
       <ButtonTelegram />
       <ButtonWhatsUp />
-      <p className='col-span-6 content-center'>{text && text}</p>
+      <p className=' content-center'>{text && text}</p>
     </div>
   )
 }

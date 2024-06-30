@@ -52,7 +52,7 @@ const Team = () => {
           },
         }}
         // className="swiperFull cursor-default overflow-hidden !py-2"
-        className='w-full h-full overflow-hidden'
+        className='w-full overflow-hidden'
         speed={800}
       >
         <SwiperSlide className='flex justify-center items-center'>

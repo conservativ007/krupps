@@ -26,7 +26,7 @@ const Article = () => {
           // when window width is >= 320px
           320: {
             slidesPerView: 1.5,
-            spaceBetween: 2,
+            spaceBetween: 10,
             loop: true,
           },
           // when window width is >= 480px
