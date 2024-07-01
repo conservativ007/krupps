@@ -60,7 +60,7 @@ const buttonsData2: IButtonsData[] = [
 
 const buttonsData3: IButtonsData[] = [
   // left
-  { text: 'Нет договора?42', style: { top: '10px', left: '40px' } },
+  { text: 'Нет договора?', style: { top: '10px', left: '40px' } },
   { text: 'Заказчик мешает работать?', style: { top: '70px', left: '40px' } },
   { text: 'Спор о качестве работ?', style: { top: '10px', left: '230px' } },
   {
@@ -87,7 +87,7 @@ const buttonsData3: IButtonsData[] = [
 
 const buttonsData4: IButtonsData[] = [
   // left
-  { text: 'Нет договора?44', style: { top: '220px', left: '5px' } },
+  { text: 'Нет договора?', style: { top: '220px', left: '5px' } },
   { text: 'Заказчик мешает работать?', style: { top: '220px', right: '5px' } },
   { text: 'Спор о качестве работ?', style: { top: '260px', left: '5px' } },
   {

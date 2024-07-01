@@ -1,6 +1,10 @@
 import CustomButtonsList from '../buttons/HeaderButtonList'
 import Image from 'next/image'
 
+// type PersonProps = {
+//   scrollToWork: () => void
+// }
+
 const Person = () => {
   return (
     <section>

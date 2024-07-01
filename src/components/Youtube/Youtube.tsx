@@ -76,7 +76,7 @@ const Youtube = () => {
       </Swiper>
 
       <Button
-        className='font-bold font-inter text-white text-[18px] bg-gradient-to-b from-[#FF4F5C] to-[#FA2030] px-6 py-4'
+        className='font-bold rounded-lg min-h-[50px] min-w-[364px] font-inter text-white text-[18px] bg-gradient-to-b from-[#FF4F5C] to-[#FA2030] border border-[#FF99A1]'
         variant='destructive'
       >
         Подписаться на YouTube канал

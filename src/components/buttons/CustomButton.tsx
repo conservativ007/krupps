@@ -16,11 +16,14 @@ const CustomButton = ({
   // const className = isMobile ? 'grid' : 'absolute'
 
   return (
-    <motion.div
-      style={customStyle}
-      className={`md:text-[16px] text-[13px] custom-button${variant} absolute custom-button bg-black/50 rounded-[30px] border border-[#EFFF39] md:py-2 py-1 md:px-5 px-2 backdrop-blur-sm inline-block cursor-pointer`}
-    >
-      {text}
+    <motion.div>
+      <a
+        href='#work-section'
+        style={customStyle}
+        className={`md:text-[16px] text-[13px] custom-button${variant} absolute custom-button bg-black/50 rounded-[30px] border border-[#EFFF39] md:py-2 py-1 md:px-5 px-2 backdrop-blur-sm inline-block cursor-pointer`}
+      >
+        {text}
+      </a>
     </motion.div>
   )
 }
